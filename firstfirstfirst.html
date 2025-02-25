@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="firstcss.css"/>
+    <title>cafe menu</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="menu">
+<main>
+ <h1>
+  <img src="electro-element-genshin-impact-wiki-guide.png" class="electro-symbol width="120" height="120">
+  INAZUMA TEA HOUSE
+  <img src="electro-element-genshin-impact-wiki-guide.png" class="electro-symbol width="120" height="120">
+</h1>
+<p class="established">Tea Fit for the Electro Archon </p>
+ <hr>
+<section>
+<h2>Inazuma Specials</h2>
+<div style="text-align: center;">
+  <img src="Item_Abyssal_Kiss.webp"alt="drink icon" width="80" height="80"/>
+  </div>
+ <div class="menu-items-container">
+<div class="item">
+<div class="item-header">
+<p class>Sakura Bloom Tea</p>
+<p>600 Mora</p>
+</div>
+<p class="item-details">A fragrant blend of sakura blossoms and green tea.</p>
+</div>
+</div>
+<div class="menu-items-container">
+<div class="item">
+<div class="item-header">
+<p>Electro Slime Fizz</p>
+<p>550 Mora</p>
+</div>
+<p class="item-details"> Citrus blend with a tingle of Electro energy.</p>
+</div>
+</div>
+<div class="menu-items-container">
+<div class="item">
+<div class="item-header">
+<p>Narukami Island Mist</p>
+<p>700 Mora</p>
+ </div>
+ <p class="item-details">A soothing blend of calming herbs, evoking the peaceful atmosphere of Narukami.</p>
+ </div>
+ </div>
+ </section>
+ <section>
+  <div style="font-size: 20px;">
+  <h3>Paimons Favourite</h3>
+ </div>
+  <div style="text-align: center;">
+  <img src="Item_Tricolor_Dango.webp" alt="snack icon" width="80" height="80"/>
+  </div>
+  <div class="menu-items-container">
+    <div class="item">
+      <div class="item-header">
+      <p>Tri-Color Dango</p>
+      <p>500 mora</p>
+      </div>
+      <p class="item-details">A sweet and chewy treat with three vibrant colors, a true Inazuma classic.</p>
+      </div>
+    </div>
+    <div class="menu-items-container">
+      <div class="item">
+        <div class="item-header">
+        <p>Dango Milk</p>
+        <p>450 mora</p>
+        </div>
+        <p class="item-details">A creamy and sweet drink, blending the delightful taste of dango with smooth milk.</p>
+        </div>
+      </div>
+      <div class="menu-items-container">
+        <div class="item">
+          <div class="item-header">
+          <p>Sweet Shrimp Sushi</p>
+          <p>650 mora</p>
+          </div>
+          <p class="item-details">Fresh, sweet shrimp atop seasoned rice, a delicate and flavorful Inazuma delicacy.</p>
+          </div>
+        </div>
+</section>
+<hr>
+<div style="text-align: center;">
+    <a href="https://www.inazumateahouse.org" target="_blank">Visit our website</a>
+</div>
+<div style="text-align: center;">
+    <p class="address">Hanamizaka Street, Inazuma City, Narukami Island</p>
+</div>
+<section>
+  <h2>Fun Form</h2>
+  <form action="/submmit-order" method="post">
+      <label for="Favourite Archon">Favourite Archon:</label><br>
+      <input type="text" id="Favourite Archon" name="Favourite Archon" required><br><br>
+      <label for="items">Select Items:</label><br>
+      <select id="items" name="items" multiple required>
+          <option value="sakura_tea">Sakura Bloom Tea</option>
+          <option value="electro_fizz">Electro Slime Fizz</option>
+          <option value="narukami_mist">Narukami Island Mist</option>
+          <option value="tri_dango">Tri-Color Dango</option>
+          <option value="dango_milk">Dango Milk</option>
+          <option value="shrimp_sushi">Sweet Shrimp Sushi</option>
+      </select><br><br>
+  </form>
+  <form action="/submit-order" method="post"></form>
+  <legend>Which is your Favourite region</legend>
+  <label style="display: inline;">
+    <input type="radio" id="Monstadt" name="region" value="Monstadt"> Monstadt
+  </label>
+  <label style="display: inline;">
+    <input type="radio" id="Fontaine" name="region" value="Fontaine"> Fontaine
+  </label>
