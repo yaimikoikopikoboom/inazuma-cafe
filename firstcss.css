@@ -1,68 +1,85 @@
 body {
     background-image: url("https://firstsportz.com/wp-content/uploads/2022/03/CC_Express_20220302_1214590.jpg");
-font-family: sans-serif;
-padding: 20px;
-  }
+    font-family: sans-serif;
+    padding: 20px;
+}
+
 .menu {
     width: 80%;
     background: linear-gradient(45deg, rgb(236, 132, 236), rgb(247, 255, 222));
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto; /* Shorthand for margin-left: auto; margin-right: auto; */
     max-width: 600px;
 }
-h1,h2,h3,p {text-align:center;}
-h1{font-size:40px;
-    font-family:Trebuchet MS;}
-    p {font-family: georgia;
-        font-size:20px;}
-.established {
- font-style: italic;}
- .menu-items-container {
-    display: flex;
-    flex-direction:column;
-   gap: 1px;
+
+h1, h2, h3, p {
+    text-align: center;
 }
+
+h1 {
+    font-size: 40px;
+    font-family: "Trebuchet MS", sans-serif; /* Add a fallback font */
+}
+
+p {
+    font-family: georgia, serif; /* Add a fallback font */
+    font-size: 20px;
+}
+
+.established {
+    font-style: italic;
+}
+
+.menu-items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px; /* Use 'gap' property for consistent spacing */
+}
+
 .item-header {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Vertically align items in header */
 }
+
 .item-details {
     text-align: left;
-    margin-top: 5px; 
+    margin-top: 5px;
     color: #777;
     font-style: italic;
 }
+
 hr {
     height: 2px;
     background-color: rgb(150, 98, 150);
-    border-color: rgb(150, 98, 150);
-  }
-  h3 {
-    margin-top: 10px; 
+    border: none; /* Remove default border */
+}
+
+h3 {
+    margin-top: 10px;
     margin-bottom: 5px;
-  }
-  .address {
+}
+
+.address {
     margin-bottom: 5px;
-  }
-  a {
+}
+
+a {
     color: black;
-  }
-  
-  a:visited {
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:visited {
     color: black;
-  }
-  
-  a:hover {
+}
+
+a:hover, a:active { /* Combine hover and active styles */
     color: violet;
-  }
-  
-  a:active {
-    color: violet;
-  }
-  .electro-symbol {
-    width: 70px; 
+}
+
+.electro-symbol {
+    width: 70px;
     height: 70px;
-    vertical-align: middle; 
-    margin: 0 10px; 
+    vertical-align: middle;
+    margin: 0 10px;
 }
